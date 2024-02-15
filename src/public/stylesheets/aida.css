@@ -3,10 +3,11 @@
 a {text-decoration: none !important;}
 
 .jumbotron {
-  background-image: url("/images/bg_1.jpeg");
+  background-image: url("/images/bg_3.jpeg");
   background-size: cover;
+  background-position: left; /* Center the image */
   background-repeat: no-repeat;
-  background-position: bottom;
+
 }
 
 .blog-header {
