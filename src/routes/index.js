@@ -1,6 +1,5 @@
 
 const { BedrockRuntimeClient, InvokeModelCommand } = require("@aws-sdk/client-bedrock-runtime"); // CommonJS import
-const PromptToAction = require("../models/prompts.js");
 
 var express = require('express');
 var router = express.Router();
@@ -49,8 +48,9 @@ router.post("/generate", async function(req, res, next) {
 
     let {action, text, context} = req.body;
 
-    prompt = PromptToAction[action](text)
-
+    //prompt = PromptToAction[action](text)
+    //adjust this to AIDA's constraints
+    prompt = "";
     response = await llm_generate(prompt, context)
 
     end = new Date();
