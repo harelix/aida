@@ -1,0 +1,20 @@
+{
+  "name": "aida",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/harelix/aida.git",
+  "author": "harelix <harel.gal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/bin/www"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.490.0",
+    "@microsoft/fast-components": "^2.30.6",
+    "axios": "^1.6.5",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  }
+}

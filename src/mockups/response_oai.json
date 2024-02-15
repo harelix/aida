@@ -1,0 +1,16 @@
+{
+  "elements": [
+    {
+      "id": "aida_main_navigation_items_3",
+      "style": "p-2 text-primary"
+    },
+    {
+      "id": "aida_main_navigation_items_5",
+      "style": "p-2 text-primary"
+    },
+    {
+      "id": "aida_main_navigation_items_8",
+      "style": "p-2 text-primary"
+    }
+  ]
+}
